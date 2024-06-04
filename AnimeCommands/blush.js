@@ -3,14 +3,14 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'blush',
-  description: 'Blush in embarrassment!',
+  description: 'Đỏ mặt vì xấu hổ!',
   async execute(message, args) {
     const sender = message.author;
     const blushGif = await anime.blush();
 
     const embed = new EmbedBuilder()
       .setColor('#ff66b2')
-      .setDescription(`${sender} is blushing... 💖`)
+      .setDescription(`${sender} đang đỏ mặt... 💖`)
       .setImage(blushGif);
 
     message.reply({ embeds: [embed] });
