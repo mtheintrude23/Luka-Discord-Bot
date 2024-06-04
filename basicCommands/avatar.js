@@ -4,14 +4,14 @@ const db = require("../mongodb");
 module.exports = {
 	name: 'avatar',
     aliases: ['profilepic', 'pfp', 'av'],
-	description: 'sends user avatar',
+	description: 'gửi hình đại diện của người dùng',
     execute(message, args) {
         const user = message.mentions.users.first() || message.author;
         const avatar = user.displayAvatarURL({ format: 'png', dynamic: true, size: 4096 });
 		
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle(`${user.username}'s Avatar`)
+            .setTitle(`${user.username}'Avatar của`)
             .setImage(avatar);
 
 		
