@@ -4,7 +4,7 @@ const db = require("../mongodb");
 module.exports = {
   name: 'help',
   aliases: ['hlp', 'h'],
-  description: 'Shows a list of available commands',
+  description: 'Hiển thị danh sách các lệnh có sẵn',
   execute(message, args) {
     const botUser = message.client.user;
     const botPing = Date.now() - message.createdTimestamp;
@@ -12,12 +12,12 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setColor('#2b71ec')
       .setAuthor({
-        name: 'Im here to Help!',
+        name: 'Tôi ở đây để trợ giúp!',
         iconURL: 'https://cdn.discordapp.com/attachments/1242855743955275919/1247580163110080522/pack.png?ex=66608b11&is=665f3991&hm=c6df0e2218dd05563de00845c6ce512f47dcbbe675055de25032a7e16b689cf6&', 
         url: 'https://discord.com/invite/UCQKfTUVup'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [YuongzMin](https://www.youtube.com/@YuongzMin)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**THỐNG KÊ :**__\n\n> **📊 Bot trong server:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [YuongzMin](https://www.youtube.com/@YuongzMin)**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -46,7 +46,7 @@ module.exports = {
       
         {
           name: '▶️  Anime',
-          value: '`<prefix>animecommands for more info`',
+          value: '`<prefix>animecommand để biết thêm thông tin`',
           inline: true,
         },
      
