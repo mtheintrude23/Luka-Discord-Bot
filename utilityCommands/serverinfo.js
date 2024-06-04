@@ -31,7 +31,7 @@ module.exports = {
 
         message.reply({ embeds: [embed] });
     }).catch((error) => {
-    console.error('Error fetching server owner:', error);
+    console.error('Lỗi tìm nạp chủ sở hữu máy chủ:', error);
     });
     }
 }
