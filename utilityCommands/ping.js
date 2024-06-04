@@ -7,8 +7,8 @@ module.exports = {
         const ping = message.client.ws.ping;
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle('Bot Latency')
-            .setDescription(`📊 Ping hiện tại của bot là ${ping}ms.`)
+            .setTitle('Ping Và Đỗ Trễ Của Bot')
+            .setDescription(`📊 Ping và độ trễ hiện tại của bot là ${ping}ms.`)
             .setTimestamp();
 
 
