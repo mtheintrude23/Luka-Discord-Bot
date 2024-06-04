@@ -13,7 +13,7 @@ module.exports = {
         }
         const user = message.mentions.users.first();
         if (!user) {
-            return message.reply('❌ You need to mention a user to ban.');
+            return message.reply('❌ Bạn cần tag tên người đó vào để ban.');
         }
         const member = message.guild.members.cache.get(user.id);
         member.ban();
