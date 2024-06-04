@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 My name is YuongzMin. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [YuongzMin](${youtubeLink})\n 💙 [🙇The YuongzBoi Server](${DiscordLink})`)
+            .setDescription(`__**Về Bản Thân Của Tôi**__:\n 🤖 Tên tôi là YuongzMin. Tôi là một người rất thích nghe nhạc đặc biệt là rap. Tôi rất thích chơi game, tôi cũng rất thích xem anime nữa và tôi ghét học toán. Bạn sẽ nhận được phản hồi trên discord nhanh hơn các phương tiện truyền thông xã hội khác. Cứ tự nhiên liên lạc tôi!\n ❤️ [YuongzMin](${youtubeLink})\n 💙 [🙇The YuongzBoi Server](${DiscordLink})`)
             .setTimestamp();
 
 
