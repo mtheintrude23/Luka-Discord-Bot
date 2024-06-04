@@ -3,7 +3,7 @@ const { EmbedBuilder } = require('discord.js');
 module.exports = {
     name: 'serverinfo',
     aliases: ['server', 'sinfo'],
-    description: 'Get information about server',
+    description: 'Thông Tin Của Server',
     execute(message, args) {
         // Check if a user was mentioned in the command, or use the message author as the default user
         
@@ -15,7 +15,7 @@ module.exports = {
         server.members.fetch(server.ownerId).then((owner) => {
         const embed = new EmbedBuilder()
         .setColor('#FFFFFF')
-        .setTitle('📊 Server Info')
+        .setTitle('📊 Thông Tin Server')
         .setThumbnail(server.iconURL({ format: 'png', dynamic: true, size: 1024 }))
         .setDescription(`
             **Server Name:** ${server.name}
