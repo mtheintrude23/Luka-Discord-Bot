@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'bully',
-  description: 'Playfully bully someone!',
+  description: 'Tinh nghịch bắt nạt ai đó!',
   async execute(message, args) {
     const sender = message.author;
     const targetUser = message.mentions.users.first();
@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#9933ff')
-      .setDescription(`${sender} playfully bullies ${targetUser || 'the air'}! 😆`)
+      .setDescription(`${sender} những kẻ bắt nạt tinh nghịch ${targetUser || 'không khí'}! 😆`)
       .setImage(bullyGif);
 
     message.reply({ embeds: [embed] });
