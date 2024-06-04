@@ -3,7 +3,7 @@ const anime = require('anime-actions');
 const db = require("../mongodb");
 module.exports = {
   name: 'kiss',
-  description: 'Send a virtual kiss!',
+  description: 'Gửi một nụ hôn!',
   async execute(message, args) {
     const sender = message.author;
     const targetUser = message.mentions.users.first();
@@ -11,7 +11,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#ff3399')
-      .setDescription(`${sender} sends a virtual kiss to ${targetUser || 'the air'}! 😘`)
+      .setDescription(`${sender} là gửi một nụ hôn tới ${targetUser || 'không khí'}! 😘`)
       .setImage(kissGif);
 
     message.reply({ embeds: [embed] });
