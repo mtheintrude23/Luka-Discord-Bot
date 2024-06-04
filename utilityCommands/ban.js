@@ -6,7 +6,7 @@ const {
   
 module.exports = {
     name: 'ban',
-    description: 'Ban a user from the server',
+    description: 'Ban member khỏi máy chủ',
     execute(message, args) {
         if (!message.member.permissions.has('BAN_MEMBERS')) {
             return message.reply('❌ Bạn không có quyền sử dụng lệnh này.');
