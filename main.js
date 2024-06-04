@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
   res.sendFile(imagePath);
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to GlaceYT : http://localhost:${port}`);
+  console.log(`🔗 Listening to YuongzMin : http://localhost:${port}`);
 });
 printWatermark();
 
@@ -83,7 +83,7 @@ client.on('messageCreate', (message) => {
     command.execute(message, args);  
   } catch (error) {
       console.error(error);
-      message.reply('There was an error trying to execute that command!');
+      message.reply('Đã xảy ra lỗi khi thực hiện lệnh đó!');
   }
 });
 
