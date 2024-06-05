@@ -11,7 +11,7 @@ module.exports = {
 		
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
-            .setTitle(`${user.username}'Avatar của`)
+            .setTitle(`Avatar của ${user.username}`)
             .setImage(avatar);
 
 		
