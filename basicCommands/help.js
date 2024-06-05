@@ -10,7 +10,7 @@ module.exports = {
     const botPing = Date.now() - message.createdTimestamp;
     const serverCount = message.client.guilds.cache.size;
     const embed = new EmbedBuilder()
-      .setColor('RANDOM')
+      .setColor('#00BFFF')
       .setAuthor({
         name: 'Tôi ở đây để trợ giúp!',
         iconURL: 'https://media.discordapp.net/attachments/1235388718165266435/1247893817076613130/tsukino_luca_by_rosettaxxx_dec80vc-fullview.png?ex=6661af2e&is=66605dae&hm=4d1bddf992a5fe8ac9d9df0735fd310dc61a896c5695434dfa617a70436c3788&=&format=webp&quality=lossless', 
