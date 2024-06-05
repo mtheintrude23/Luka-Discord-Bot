@@ -10,14 +10,14 @@ module.exports = {
     const botPing = Date.now() - message.createdTimestamp;
     const serverCount = message.client.guilds.cache.size;
     const embed = new EmbedBuilder()
-      .setColor('#2b71ec')
+      .setColor('RANDOM')
       .setAuthor({
         name: 'Tôi ở đây để trợ giúp!',
-        iconURL: 'https://cdn.discordapp.com/attachments/1242855743955275919/1247580163110080522/pack.png?ex=66608b11&is=665f3991&hm=c6df0e2218dd05563de00845c6ce512f47dcbbe675055de25032a7e16b689cf6&', 
-        url: 'https://discord.com/invite/UCQKfTUVup'
+        iconURL: 'https://media.discordapp.net/attachments/1235388718165266435/1247893817076613130/tsukino_luca_by_rosettaxxx_dec80vc-fullview.png?ex=6661af2e&is=66605dae&hm=4d1bddf992a5fe8ac9d9df0735fd310dc61a896c5695434dfa617a70436c3788&=&format=webp&quality=lossless', 
+        url: 'https://note1s.net/note/ljok2Wpr0wvw'
     })
      
-      .setDescription(`__**THỐNG KÊ :**__\n\n> **📊 Bot trong server:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [YuongzMin](https://www.youtube.com/@YuongzMin)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**THỐNG KÊ :**__\n\n> **📊 Bot trong server:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By Luka Developers**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -46,7 +46,7 @@ module.exports = {
       
         {
           name: '▶️  Anime',
-          value: '`<prefix>animecommand để biết thêm thông tin`',
+          value: '`<prefix> animecommand để biết thêm thông tin`',
           inline: true,
         },
      
@@ -57,21 +57,21 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1242855743955275919/1247580140699914270/standard.gif?ex=66608b0c&is=665f398c&hm=5fd8d349cd2eef361ad95e1ffff38c3df85ac1201fa233a4d9f2d707601ebed8&`);
+      .setImage(`https://media.discordapp.net/attachments/1235388718165266435/1247893244809969778/latest.png?ex=6661aea6&is=66605d26&hm=2fe248ccb64ba036bfc15e01bce03ff4b8b52052148cb3a61f7c7b8931057243&=&format=webp&quality=lossless&width=550&height=309`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/@YuongzMin')
+      .setURL('https://note1s.net/note/A4eAwQaUKl6F')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.com/invite/UCQKfTUVup')
+      .setURL('https://note1s.net/note/A4eAwQaUKl6F')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
       .setLabel('Code')
-      .setURL('https://github.com/MinDz204/YuongzBoiSiTinh')
+      .setURL('https://note1s.net/note/A4eAwQaUKl6F')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
