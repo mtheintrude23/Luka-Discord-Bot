@@ -9,7 +9,7 @@ const nodes = [
     host: "lavalink.oryzen.xyz",
     port: 80, 
     password: "oryzen.xyz", 
-     secure: false
+    secure: false
   },
 ];
 
@@ -262,7 +262,7 @@ client.riffy.on("trackStart", async (player, track) => {
         author: `By ${track.info.author}`,
         authorColor: "#696969",
         startTime: "0:00",
-        endTime: "4:00",
+        endTime: "10:00",
         timeColor: "#FF7A00"
     });
 
@@ -292,7 +292,7 @@ client.riffy.on("trackStart", async (player, track) => {
 
 client.riffy.on("queueEnd", async (player) => {
     const channel = client.channels.cache.get(player.textChannel);
-    const autoplay = false;
+    const autoplay = true;
     if (autoplay) {
         player.autoplay(player)
     } else {
