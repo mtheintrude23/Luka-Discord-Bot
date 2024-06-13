@@ -1,48 +1,48 @@
-#  MULTI-MUSIC BOT BY GlaceYT 
-▶️ simple and powerful multi music bot.
-▶️ consisting of various commands.
-▶️ Still in development you may face minor bugs|
+#  MULTI-MUSIC BOT BY Luka Developments
+♥️ bot đa nhạc đơn giản và mạnh mẽ.
+♥️ bao gồm nhiều lệnh khác nhau.
+♥️ Vẫn đang trong quá trình phát triển, bạn có thể gặp phải những lỗi nhỏ|
 
-# 📋 Overview
+# 📋 Tổng quan
 
-The basic or default prefix is "?". You can change the prefix by modifying the `config.json` file.
+Tiền tố cơ bản hoặc mặc định là "?". Bạn có thể thay đổi tiền tố bằng cách sửa đổi tệp `config.json`.
 
-## ✨ Features
+## ✨ Tính năng
 
 
-- **Moderation Commands**: 👮‍♂️ Keep your server under control with powerful moderation tools. Manage members, messages, and maintain a peaceful environment.
+- **Lệnh kiểm duyệt**: 👮‍♂️ Kiểm soát máy chủ của bạn bằng các công cụ kiểm duyệt mạnh mẽ. Quản lý thành viên, tin nhắn và duy trì môi trường hòa bình.
 
-- **Utility Commands**: 🛠️ Boost your Discord experience with a range of handy utility commands. From server management to user information, we've got you covered.
+- **Lệnh tiện ích**: 🛠️ Nâng cao trải nghiệm Discord của bạn với một loạt lệnh tiện ích. Từ quản lý máy chủ đến thông tin người dùng, chúng tôi đều hỗ trợ bạn.
 
-- **Image Commands**: 📸 Unleash your creativity with a variety of fun and artistic image commands. Transform images, create memes, and have a blast!
+- **Lệnh hình ảnh**: 📸 Giải phóng khả năng sáng tạo của bạn với nhiều lệnh hình ảnh thú vị và nghệ thuật. Biến đổi hình ảnh, tạo meme và tận hưởng niềm vui!
 
-- **Basic Commands**: ✨ Get started with essential commands for everyday Discord use. Greetings, information, and more, all at your fingertips.
+- **Các lệnh cơ bản**: ✨ Bắt đầu với các lệnh cần thiết để sử dụng Discord hàng ngày. Lời chào, thông tin và nhiều thông tin khác, tất cả đều nằm trong tầm tay bạn.
 
-- **Fun Commands**: 🎉 Add excitement to your server with entertaining and lighthearted commands. Games, jokes, and surprises await!
+- **Lệnh thú vị**: 🎉 Tạo thêm sự phấn khích cho máy chủ của bạn bằng các lệnh thú vị và vui vẻ. Trò chơi, trò đùa và những điều bất ngờ đang chờ đợi!
 
-- **Anime Commands**: 🌟 Explore the world of anime with specialized commands. show your expressions through different interactions.
+- **Lệnh Anime**: 🌟 Khám phá thế giới anime với các lệnh chuyên biệt. thể hiện biểu cảm của bạn thông qua các tương tác khác nhau.
 
-## 🛠️ Installation
+## 🛠️ Cài đặt
 
-1. **Create a TOKEN Secret**: Generate a bot token from the Discord Developer Portal and add it to your bot.
-2. **Install Dependencies**: Install all required Node.js modules using the following command:
+1. **Tạo Bí mật TOKEN**: Tạo mã thông báo bot từ Cổng thông tin nhà phát triển Discord và thêm nó vào bot của bạn.
+2. **Cài đặt phụ thuộc**: Cài đặt tất cả các mô-đun Node.js cần thiết bằng lệnh sau:
 
-## 📜 Commands
-?help: for available commands.
-?play: plays music.
-?blush : anime gif interaction
+## 📜 Lệnh
+?help: cho các lệnh có sẵn.
+?play: phát nhạc.
+?blush: tương tác gif anime
 ...
 
-## 🤝 Contributing [Contact me on Discord]
+## 🤝 Đóng góp [Liên hệ với tôi trên Discord]
 
-**Contributions to this project are welcome! If you'd like to contribute, follow these steps:**
+** Đóng góp cho dự án này đều được chào đón! Nếu bạn muốn đóng góp, hãy làm theo các bước sau:**
 
-## Join Our Discord: Join our Discord server to connect with the community.
-## Show Your Work: Share your contributions with the community.
-## Bug Fixes: If you encounter any bugs or errors, please notify them.
-## Commit Changes: Commit your changes to your forked repository.
-## Pull Request: Submit a pull request with your changes.
+## Tham gia Discord của chúng tôi: Tham gia máy chủ Discord của chúng tôi để kết nối với cộng đồng.
+## Thể hiện công việc của bạn: Chia sẻ những đóng góp của bạn với cộng đồng.
+## Sửa lỗi: Nếu bạn gặp bất kỳ lỗi hoặc sai sót nào, vui lòng thông báo cho họ.
+## Cam kết thay đổi: Cam kết các thay đổi của bạn đối với kho lưu trữ đã phân nhánh của bạn.
+## Yêu cầu kéo: Gửi yêu cầu kéo cùng với các thay đổi của bạn.
 
-# 📚 Copyright 
+# 📚 Bản quyền
 
-All code in this project is authored by GlaceYT. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
+Tất cả mã trong dự án này đều do Luka Developments viết. Vui lòng không sử dụng mã này cho bất kỳ mục đích sử dụng công cộng nào, chẳng hạn như tạo video YouTube, kho lưu trữ Git, v.v. mà không có sự cho phép rõ ràng của tôi.
